@@ -1,0 +1,4 @@
+* @ScutumDefense/data-platform @ScutumDefense/architecture-council
+/src/bus/ @ScutumDefense/data-platform
+/src/protocols/ @ScutumDefense/architecture-council
+/src/middleware/ @ScutumDefense/data-platform

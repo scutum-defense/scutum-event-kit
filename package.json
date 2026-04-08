@@ -1,0 +1,20 @@
+{
+  "name": "@scutum/event-kit",
+  "version": "0.1.0",
+  "description": "Event bus and message protocol library for the Scutum Command Platform",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "vitest": "^2.0.0"
+  }
+}
