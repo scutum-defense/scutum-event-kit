@@ -16,5 +16,13 @@
   "devDependencies": {
     "typescript": "^5.6.0",
     "vitest": "^2.0.0"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
   }
 }
